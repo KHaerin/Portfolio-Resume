@@ -11,7 +11,8 @@ export default defineConfig({
                 index: path.resolve(__dirname, 'index.html'),
                 about: path.resolve(__dirname, 'about.html'),
                 project: path.resolve(__dirname, 'project.html'),
-                contact: path.resolve(__dirname, 'contact.html')
+                contact: path.resolve(__dirname, 'contact.html'),
+                process: path.resolve(__dirname, 'process-form.php')
             },
           },
 	  },
