@@ -1,5 +1,12 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+if (mail($recipient, $subject, $message, $mailheader)) {
+  echo '<h1>Email sent successfully!</h1>';
+} else {
+  echo '<h1>Error sending email!</h1>';
+}
+
+
   // Retrieve form data
   $name = $_POST["name"];
   $email = $_POST["email"];
@@ -55,5 +62,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </html>
     
    ';
-}
+
 ?>
