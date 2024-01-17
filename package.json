@@ -1,0 +1,17 @@
+{
+    "name": "portfolio-resume",
+    "version": "1.0.0",
+    "main": "index.html",
+    "scripts": {
+      "start": "npx vite",
+      "dev": "npx vite",
+      "build": "npx vite build",
+      "preview": "npx vite preview"
+    },
+    "description": "Portfolio Resume",
+    "author": "Cole Uyan",
+    "license": "ISC",
+    "devDependencies": {
+      "vite": "^4.5.0"
+    }
+  }
