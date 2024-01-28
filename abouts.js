@@ -1,7 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector('.cv-btn').addEventListener('click', viewCV);
+    document.querySelector('.cvBtn').addEventListener('click', viewCVPDF);
   
-    function viewCV() {
-      alert("WAKOY CV TT");
+    function viewCVPDF() {
+      var pdfFile = 'CV/UyanCV.pdf'
+      var link = document.createElement('a');
+      link.href = pdfFile;
+      link.download = 'UyanCV.pdf';
+      link.click();
+      window.open(pdfFile, '_blank');
     }
   });
