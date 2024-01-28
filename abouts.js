@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
       link.href = downloadLink;
       link.download = 'UyanCV.pdf';
       link.click();
-      window.open(pdfFile, '_blank');
+      window.open(downloadLink, '_blank');
     }
   });
 
