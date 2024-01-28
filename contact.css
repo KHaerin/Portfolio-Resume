@@ -43,6 +43,22 @@ margin: 0;
   text-decoration: underline;
 }
 
+.social-icon{
+  display: flex;
+  margin-left: 5%;
+  align-items: center;
+  flex: 1;
+}
+
+.social-icon a{
+  margin: 0.5% 1.5%;
+}
+
+#icon{
+  width: 35px;
+  height: 35px;
+}
+
 /* FORM */
 
 .form{
