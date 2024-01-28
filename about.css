@@ -93,6 +93,7 @@ body {
 }
 
 .cvBtn{
+  border: none;
   display: flex;
   width: 166px;
   justify-content: center;
