@@ -93,8 +93,10 @@ body {
 }
 
 .cvBtn{
-  border: none;
+  display: flex;
   width: 166px;
+  justify-content: center;
+  align-items: center;
   height: 62px;
   font-size: 24px;
   font-weight: 200;
